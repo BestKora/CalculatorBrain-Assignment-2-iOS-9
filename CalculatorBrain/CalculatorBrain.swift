@@ -64,6 +64,7 @@ class CalculatorBrain
                 }
             }
         }
+        
         var commutative: Bool {
             get {
                 switch self {
