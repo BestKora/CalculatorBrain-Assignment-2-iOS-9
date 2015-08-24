@@ -47,7 +47,6 @@ class ViewController: UIViewController
             return nil
         }
     }
-
     
     @IBAction func appendDigit(sender: UIButton) {
         let digit = sender.currentTitle!
