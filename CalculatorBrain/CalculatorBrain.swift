@@ -122,7 +122,6 @@ class CalculatorBrain
     }
 
     typealias PropertyList = AnyObject
-    
     var program:PropertyList { // guaranteed to be a Property List
         get {
             return opStack.map{$0.description}
