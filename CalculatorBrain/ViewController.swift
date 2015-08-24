@@ -67,7 +67,7 @@ class ViewController: UIViewController
         }
     }
     
-    
+
     @IBAction func operate(sender: UIButton) {
         if userIsInTheMiddleOfTypingANumber {
             enter()
@@ -134,6 +134,5 @@ class ViewController: UIViewController
             operate(sender)
         }
     }
-    
 }
 
