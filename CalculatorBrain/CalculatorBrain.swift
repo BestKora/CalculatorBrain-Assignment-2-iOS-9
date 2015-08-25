@@ -315,7 +315,7 @@ class CalculatorBrain
     }
     
     func displayStack() -> String? {
-        return opStack.isEmpty ? nil : " ".join(opStack.map{ $0.description })
+        return opStack.isEmpty ? nil : opStack.map{ $0.description }.joinWithSeparator(" ")
     }
     
     
